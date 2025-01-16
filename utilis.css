@@ -1,0 +1,18 @@
+.d-flex{
+    display: flex;
+}
+.j-center{
+    justify-self: center;
+}
+.j-space-between{
+    justify-content: space-between;
+}
+.j-space-around{
+    justify-content: space-around;
+}
+.j-space-evenly{
+    justify-content: space-evenly;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
