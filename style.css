@@ -156,7 +156,7 @@ body {
     width: 100vw;
     height: 100%;
     margin: 2px 0px;
-    background-image: url(/earing/earing4.jpeg);
+    background-image: url(earing/earing4.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -166,31 +166,31 @@ body {
 }
 @keyframes bg {
     20% {
-        background-image: url(/ring/ring8.jpeg);
+        background-image: url(ring/ring8.jpeg);
         background-repeat: no-repeat;
         background-position: center;
     }
 
     40% {
-        background-image: url(/earing/e22.jpeg);
+        background-image: url(earing/e22.jpeg);
         background-repeat: no-repeat;
         background-position: center;
     }
 
     60% {
-        background-image: url(/ring/ring9.jpeg);
+        background-image: url(ring/ring9.jpeg);
         background-repeat: no-repeat;
         background-position: center;
     }
 
     80% {
-        background-image: url(/necklace/new-necklace.jpg);
+        background-image: url(necklace/new-necklace.jpg);
         background-repeat: no-repeat;
         background-position: center;
     }
 
     100% {
-        background-image: url(/ring/ring10.jpeg);
+        background-image: url(ring/ring10.jpeg);
         background-repeat: no-repeat;
         background-position: center;
     }
@@ -356,25 +356,25 @@ body {
     cursor: pointer;
 }
 #collection-in #collection1 {
-    background-image: url(/frontimages/necklace5.jpeg);
+    background-image: url(frontimages/necklace5.jpeg);
     background-size: cover;
     background-position: center;
 
 }
 #collection-in #collection2 {
-    background-image: url(/frontimages/ring2.jpeg);
+    background-image: url(frontimages/ring2.jpeg);
     background-size: cover;
     background-position: center;
 
 }
 #collection-in #collection3 {
-    background-image: url(/frontimages/earing.jpeg);
+    background-image: url(frontimages/earing.jpeg);
     background-size: cover;
     background-position: center;
 
 }
 #collection-in #collection4 {
-    background-image: url(/frontimages/bangle.jpeg);
+    background-image: url(frontimages/bangle.jpeg);
     background-size: cover;
     background-position: center;
 
@@ -394,22 +394,22 @@ body {
     opacity: 1;
 }
 #Exclusive-in #Exclusive1 {
-    background-image: url(/Exclusive/n28.jpeg);
+    background-image: url(Exclusive/n28.jpeg);
     background-size: cover;
     background-position: center;
 }
 #Exclusive-in #Exclusive2 {
-    background-image: url(/Exclusive/r23.jpeg);
+    background-image: url(Exclusive/r23.jpeg);
     background-size: cover;
     background-position: center;
 }
 #Exclusive-in #Exclusive3 {
-    background-image: url(/Exclusive/earing6.jpeg);
+    background-image: url(Exclusive/earing6.jpeg);
     background-size: cover;
     background-position: center;
 }
 #Exclusive-in #Exclusive4 {
-    background-image: url(/Exclusive/br5.jpeg);
+    background-image: url(Exclusive/br5.jpeg);
     background-size: cover;
     background-position: center;
 }
