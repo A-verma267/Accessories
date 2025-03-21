@@ -65,7 +65,7 @@
         <div class="right">
 
             <div tabindex="0" id="search" class="search rounded-cursor" ><img id="search" src="icons/search.png" alt="search"></div>
-            <div class="rounded-cursor"><img class="carticon" src="icons/cart.png" alt=""></div>
+            <div class="rounded-cursor"><img id="carticon" src="icons/cart.png" alt=""></div>
             <div class="contact rounded-cursor"><a href="./blackbox.html"><img  src="icons/person.png"
                         alt="contact"></a>
             </div>
@@ -123,6 +123,13 @@
         </div>
         
     </div>
+    <div class="cart">
+        <div class="cross">❌</div>
+        <h2>Shopping Cart</h2>
+        <ul id="cart-items"></ul>
+        <p class="total"><strong>Total:</strong> $<span id="cart-total">0</span></p>
+        <button onclick="clearCart()">Clear Cart</button>
+    </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
         integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -130,7 +137,6 @@
         integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-        <script src="main.js"></script>
         <script src="necklace.js"></script>
         <script src="common.js"></script>
 </body>

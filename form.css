@@ -91,3 +91,8 @@ input[type="submit"]:hover {
 #signup-link:hover {
     color: #3e8e41;
 }
+#cross{
+    position: absolute;
+    top: 8px;
+    left: 18px;
+}
