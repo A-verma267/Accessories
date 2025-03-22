@@ -96,3 +96,8 @@ input[type="submit"]:hover {
     top: 8px;
     left: 18px;
 }
+@media (max-width:600px) {
+    #login-form,#signup-form{   
+        width: 340px;
+    }
+}

@@ -22,7 +22,8 @@
             <div class="head-in-1">Make Her Smile: Jewellery Gifts at Unbeatable Prices!</div>
         </div>
     </div>
-    <nav class="mobilenav">
+    
+    <nav class="navbar d-flex j-space-between">
         <div class="rep-left">
             <div>
                 <img tabindex="0" id="minu" class="menu" src="icons/menu.png" alt="">
@@ -32,18 +33,10 @@
             </a>
         </div>
         <a href="./index.html"><p>ShAsHiKa</p></a>
-        <div class="rep-right">
-            <div tabindex="0" id="search">
-                <img id="search" src="icons/search.png" alt="">
-            </div>
-            
-            <div class="rounded-cursor"><img class="carticon" src="icons/cart.png" alt=""></div>
-        </div>
-    </nav>
-    <nav class="navbar d-flex j-space-between">
         <div class="left d-flex">
+            
             <a href="./index.html"><img class="shashika" src="frontimages/img2.jpeg" alt="no image found "></a>
-            <a style="text-decoration: none;" href="./index.html">
+            <a class="name" style="text-decoration: none;" href="./index.html">
                 <p class="rounded-cursor">ShAsHiKa</p>
             </a>
         </div>
@@ -63,7 +56,7 @@
             
             <div tabindex="0" id="search" class="search rounded-cursor" ><img id="search" src="icons/search.png" alt="search"></div>
             <div id="carticon" class="rounded-cursor"><img class="carticon" src="icons/cart.png" alt=""></div>
-            <div class="contact rounded-cursor"><a href="./blackbox.html"><img  src="icons/person.png"
+            <div class="contact rounded-cursor"><a href="./blackbox.html"><img class="contact"  src="icons/person.png"
                         alt="contact"></a>
             </div>
         </div>
@@ -84,8 +77,9 @@
     </div>
      
     <div id="shortsearch" style="display: none;">
-        <input type="text" placeholder="Search Jewellery">
-        <ul class="first">
+        <input id="input-box" type="text" placeholder="Search Jewellery" autocomplete="off">
+        <!-- <div id="result-box"></div> -->
+        <ul id="result-box" class="first">
             <li class="rounded-cursor"><a href="./all_jewellery.html"> All Jewellery</a></li>
             <li class="rounded-cursor"><a href="./necklace.html"> Necklaces </a>
             </li>

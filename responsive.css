@@ -1,18 +1,13 @@
 @media (max-width :600px) {
 
-    .navbar,
+    .navbar .center,.navbar .left,
     #cursor,
     #cursor-blur,
     .foot .left .logo a img,
     .card-content {
         display: none;
     }
-
-    body {
-        background-color: #000;
-    }
-
-    .mobilenav {
+    .navbar{
         background-color: #000;
         height: 50px;
         box-sizing: border-box;
@@ -25,20 +20,30 @@
         align-items: center;
         padding: 0px 9px;
     }
+    body {
+        background-color: #000;
+    }
+.head{
+    height:35px
+}
 
-    .mobilenav img {
+    /* .navbar img {
         width: 33px;
         height: 33px;
         margin-left: 12px;
+    } */
+    .contact{
+        display: none;
     }
-
     .rep-right,
     .rep-left {
         display: flex;
         justify-content: center;
         align-items: center;
     }
-
+    #minu{
+        cursor: pointer;
+    }
     .rep-left img {
         height: 25px;
         width: 25px;
@@ -48,8 +53,10 @@
         height: 22px;
         width: 22px;
     }
-
-    .mobilenav p {
+    .navbar>a{
+        display: block;
+    }
+    .navbar p {
         display: block;
         font-size: 24px;
         font-weight: 800;
@@ -336,61 +343,8 @@
         overflow: auto;
     }
 
-    .cart img {
-        width: 30px;
-        height: 30px;
-        display: flex;
-        align-items: end;
-        justify-content: end;
-        top: 10px;
-        margin: 5px 12px;
-    }
-
-    #cartcon {
-        background-color: blueviolet;
-        width: 100%;
-        height: 100%;
-        padding: 0px 17px;
-        display: flex;
-        justify-content: space-between;
-        row-gap: 12px;
-        column-gap: 10px;
-        flex-wrap: wrap;
-    }
-
-    #cartcon .cart-content {
-        padding: 10px;
-        background-color: rgb(255, 255, 255);
-        width: 100%;
-        height: 100%;
-        margin: 20px 0px;
-        /* border: 2px solid yellow; */
-        border-radius: 20px;
-        box-shadow: 5px 5px 10px rgb(0, 0, 0), inset 5px 5px 10px rgb(0, 0, 0);
-    }
-
-    #cart-box {
-        background-color: red;
-        width: 45%;
-        height: 25%;
-    }
-
-    #cart-box input {
-        position: absolute;
-
-    }
-
-    .cart-content img {
-        height: 100%;
-        width: 50%;
-        border-radius: 10px;
-
-    }
-
-    .cart-content .content h4,
-    h5,
-    h6,
-    button {
-        color: #000;
-    }
+     #cart-items img{
+        height: 80px;
+     }
+    
 }
