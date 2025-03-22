@@ -1,5 +1,5 @@
 let products = [
-    { img: "bracelet/bracelet1.jpeg", key: "Silver Charm", price: "45$", review: "⭐⭐⭐⭐☆ (4.5/5)" },
+    { img: "./bracelet/bracelet1.jpeg", key: "Silver Charm", price: "45$", review: "⭐⭐⭐⭐☆ (4.5/5)" },
     { img: "bracelet/bracelet2.jpeg", key: "Gold Plated", price: "45$", review: "⭐⭐⭐⭐☆ (4.5/5)" },
     { img: "bracelet/bracelet3.jpeg", key: "Leather Band", price: "45$", review: "⭐⭐⭐⭐☆ (4.5/5)" },
     { img: "bracelet/br4.jpeg", key: "Pearl Elegance", price: "45$", review: "⭐⭐⭐⭐☆ (4.5/5)" },
