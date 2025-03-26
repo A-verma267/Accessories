@@ -70,7 +70,7 @@ function displayCart() {
 
     cart.forEach((item, index) => {
         let div = document.createElement("div");
-        div.innerHTML = ` <img src=${item.img}/>
+        div.innerHTML = ` <img src="${item.img}" alt="img not found">
         <p>${item.name} (x${item.quantity}) - $${item.price * item.quantity}</p>
             <button class="remove-btn" onclick="removeFromCart(${index})">❌</button>`;
         cartItems.appendChild(div);
